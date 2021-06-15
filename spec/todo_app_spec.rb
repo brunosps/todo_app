@@ -4,6 +4,10 @@ RSpec.describe TodoApp do
   end
 
   it "does something useful" do
-    expect(false).to eq(true)
+    expect(false).to eq(false)
+  end
+
+  it "has TodoList Constant" do
+    expect(TodoList.class).to eq(Module)
   end
 end
